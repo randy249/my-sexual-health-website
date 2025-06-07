@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="myth-vs-fact.html">Myth vs Fact</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="sources.html">Sources</a></li>
+  </ul>
+</nav>
+  <!-- Hero Section -->
+  <div class="hero-section" id="home">
+    <h1>Welcome to a Sexual Health Website</h1>
+    <p>
+      Welcome to Jeff's Website.<br>
+      Explore the facts and the myths of our day-to-day life!
+    </p>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <br><br>
+    <img src="https://feminisminindia.com/wp-content/uploads/2016/01/cropped-SexualHealth730x517-810237304.jpg.webp" alt="Main Image" width="700">
+  </div>
+
+  <!-- Gallery (optional) -->
+  <div class="gallery">
+    <img src="image1.png" alt="Image 1">
+    <img src="image2.png" alt="Image 2">
+  </div>
+
+  <!-- Message Form -->
+  <section id="message-form">
+    <h2>Send a Message</h2>
+    <form id="contact-form" action="https://formspree.io/f/xnndeggb" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required><br>
+      <input type="email" name="email" placeholder="Your Email" required><br>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- JS Script -->
+  <script src="script.js"></script>
+</body>
+</html>
+<footer>
+  <p>&copy; 2025 Jeff's Sexual Health Website. All rights reserved.</p>
+</footer>
